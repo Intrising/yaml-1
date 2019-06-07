@@ -32,13 +32,13 @@ GOOD:
 To install, run:
 
 ```
-$ go get github.com/ghodss/yaml
+$ go get github.com/Intrising/yaml-json
 ```
 
 And import using:
 
 ```
-import "github.com/ghodss/yaml"
+import "github.com/Intrising/yaml-json"
 ```
 
 Usage is very similar to the JSON library:
@@ -49,7 +49,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ghodss/yaml"
+	"github.com/Intrising/yaml-json"
 )
 
 type Person struct {
@@ -93,7 +93,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ghodss/yaml"
+	"github.com/Intrising/yaml-json"
 )
 
 func main() {
